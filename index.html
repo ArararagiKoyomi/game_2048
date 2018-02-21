@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo_2048</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/cell.css" />
+	<link rel="stylesheet" type="text/css" href="css/block.css" />
+	<script src="jquery/jquery-3.2.1.min.js"></script>
+	<script src="jquery/jquery.cookie.js"></script>
+	<script src="hammerJs/Hammer.js"></script>
+	<script src="js/ConfirmWindow.js"></script>
+</head>
+
+<body>
+	<div id='main_div'><div id='title_div'></div></div>
+</body>
+
+<script src="js/Container.js"></script>
+<script src="js/Slide.js"></script>
+<script src="js/Cell.js"></script>
+<script src="js/Block.js"></script>
+<script src="js/BlockInfo.js"></script>
+<script src="js/Random.js"></script>
+<script src="js/PointBoard.js"></script>
+<script src="js/Reset.js"></script>
+<script src="js/CookieAssist.js"></script>
+
+
+<script type="text/javascript">
+	//main
+
+	init_screen();
+
+	//init
+	function init_screen(){
+		var _screen_width = $('body').width();
+		
+		var _pContainer = Container($('#main_div'), 200);
+
+
+	}
+
+	function alert(text){
+		console.log(text);
+	}
+
+
+</script>
+
+</html>

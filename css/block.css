@@ -1,0 +1,12 @@
+.block_div{
+	position: absolute;
+	background: white;
+	border: 4px solid rgb(190,170,161);
+	box-sizing: border-box;
+}
+.block_div p{
+	position: absolute;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}

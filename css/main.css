@@ -1,0 +1,154 @@
+@media screen and (max-width:999px) {
+    body {
+         background-color:black;
+         
+    }
+
+    #main_div{
+		margin-left: 50%;
+		top: 0px;
+		left: -50%;
+		width: 100%;
+	}
+
+	html{
+		font-size: 100%;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+         background-color:black;
+             }
+
+    #main_div{
+		margin-left: 50%;
+		top: 0px;
+		left: -50%;
+		width: 100%;
+	}
+
+	html{
+		font-size: 100%;
+	}
+}
+
+
+body{
+	margin: 0 0 0 0;
+	/*background-color: rgb(100,200,255);*/
+
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+#main_div{
+	position: absolute;
+	background: black;
+	/*background: rgb(10,150,150);*/
+	height: 100%;
+}
+
+#title_div{
+	position: absolute;
+	top: 10px;
+	left: 18px;
+	right:18px;
+	height: 170px;
+	background: black;
+	border: 1px solid white;
+	box-sizing: border-box;
+}
+
+#game_point_board{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 80%;
+	bottom: 10px;
+	/*background: white;*/
+}
+
+#game_slide_area{
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	right:0px;
+	height: 600px;
+	background: black;
+}
+
+
+#game_main_area{
+	position: absolute;
+	top: 10px;
+	left: 5%;
+	right:5%;
+	height: 300px;
+	background: white;
+}
+
+.rotateOut{
+	animation: rotateOut 0.5s;
+	-moz-animation: rotateOut 0.5s;	/* Firefox */
+	-webkit-animation: rotateOut 0.5s;	/* Safari 和 Chrome */
+	-o-animation: rotateOut 0.5s;	/* Opera */
+}
+
+@keyframes rotateOut
+{
+	from {transform : rotateX(0deg);}
+	to {transform : rotateX(90deg);}
+}
+
+@-moz-keyframes rotateOut /* Firefox */
+{
+	from {transform : rotateX(0deg);}
+	to {transform : rotateX(90deg);}
+}
+
+@-webkit-keyframes rotateOut /* Safari 和 Chrome */
+{
+	from {transform : rotateX(0deg);}
+	to {transform : rotateX(90deg);}
+}
+
+@-o-keyframes rotateOut /* Opera */
+{
+	from {transform : rotateX(0deg);}
+	to {transform : rotateX(90deg);}
+}
+
+.rotateIn{
+	animation: rotateIn 0.5s;
+	-moz-animation: rotateIn 0.5s;	/* Firefox */
+	-webkit-animation: rotateIn 0.5s;	/* Safari 和 Chrome */
+	-o-animation: rotateIn 0.5s;	/* Opera */
+}
+
+@keyframes rotateIn
+{
+	from {transform : rotateX(-90deg);}
+	to {transform : rotateX(0deg);}
+}
+
+@-moz-keyframes rotateIn /* Firefox */
+{
+	from {transform : rotateX(-90deg);}
+	to {transform : rotateX(0deg);}
+}
+
+@-webkit-keyframes rotateIn /* Safari 和 Chrome */
+{
+	from {transform : rotateX(-90deg);}
+	to {transform : rotateX(0deg);}
+}
+
+@-o-keyframes rotateIn /* Opera */
+{
+	from {transform : rotateX(-90deg);}
+	to {transform : rotateX(0deg);}
+}
+
